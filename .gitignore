@@ -1,29 +1,24 @@
-# Dependencias de Node
-/node_modules/
-
-# Archivos / carpetas de build o bundler
-/build/
-/dist/
-/.cache/
-/dist-ssr/
-
-# Archivos de logs
+# Logs
+logs
+*.log
 npm-debug.log*
 yarn-debug.log*
-*.log
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
 
-# Configuraciones de editor / IDE
-.vscode/
-.idea/
+node_modules
+dist
+dist-ssr
+*.local
 
-# Archivos del sistema
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
 .DS_Store
-Thumbs.db
-
-# Variables de entorno, secretos, configuración específica local
-.env
-.env.local
-.env.*.local
-
-# Otros
-coverage/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
