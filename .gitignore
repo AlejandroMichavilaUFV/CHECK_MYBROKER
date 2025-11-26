@@ -1,0 +1,29 @@
+# Dependencias de Node
+/node_modules/
+
+# Archivos / carpetas de build o bundler
+/build/
+/dist/
+/.cache/
+/dist-ssr/
+
+# Archivos de logs
+npm-debug.log*
+yarn-debug.log*
+*.log
+
+# Configuraciones de editor / IDE
+.vscode/
+.idea/
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Variables de entorno, secretos, configuración específica local
+.env
+.env.local
+.env.*.local
+
+# Otros
+coverage/
